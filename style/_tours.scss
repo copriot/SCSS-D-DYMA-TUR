@@ -1,0 +1,30 @@
+.tours{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+
+
+    &-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+        margin-right: 5px;
+        
+    }
+    &-right {
+        width: 45%;
+
+        &-gallery {
+            img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.events {
+    &-title{
+        text-align: center;
+        font-size: 4vmin;
+        margin: 50px 0;
+        margin-bottom: 40px;
+    }
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+
+        &-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            gap: 15px;
+            
+    
+            h4{
+                color: $secondary-color;
+            }
+            p {
+                text-align: center;
+                color: $thirdy-color;
+                font-size: 18px; width: 80%;
+            }
+    
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
